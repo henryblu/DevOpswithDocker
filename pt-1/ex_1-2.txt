@@ -1,5 +1,5 @@
-henry@DESKTOP-XXXXXXX:~/devops_docker$ docker ps -a
+~/devops_docker$ docker ps -a
 CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
-henry@DESKTOP-XXXXXXX:~/devops_docker$ docker images 
+~/devops_docker$ docker images 
 REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
