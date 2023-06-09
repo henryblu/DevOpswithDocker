@@ -1,0 +1,12 @@
+size comparason: 
+ubuntu image has size 83MB (large)
+alpine image has size 15.7MB (much smaller)
+
+Secret message: 
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
+commands: 
+~/Documents/courses/DevOpswithDocker$ sudo docker pull devopsdockeruh/simple-web-service:alpine
+~/Documents/courses/DevOpswithDocker$ sudo docker run -it -d devopsdockeruh/simple-web-service:alpine
+~/Documents/courses/DevOpswithDocker$ sudo docker exec -it great_volhard sh
+/usr/src/app # tail -f ./text.log
