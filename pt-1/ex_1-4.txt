@@ -1,8 +1,7 @@
 Commands:
 
-henry@DESKTOP-XXXXXXX:~/devops_docker$ docker run -d -it --name ex_1-3 ubuntu
-henry@DESKTOP-XXXXXXX:~/devops_docker$ docker exec -it ex_1-3 bash
+~/devops_docker$ docker run -it --name ex_1-3 ubuntu
 
-root@4d1ce6b338d0:/# apt-get update 
-root@4d1ce6b338d0:/# apt-get install curl
-root@4d1ce6b338d0:/# sh -c 'echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website;'
+root@066c1937244b:/# apt-get update
+root@066c1937244b:/# apt-get -y install curl
+root@4d1ce6b338d0:/# sh -c 'while true; do echo "Input website:"; read website; echo "Searching.."; sleep 1; curl http://$website; done'
