@@ -1,4 +1,4 @@
-Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+The Secret message is: 'You can find the source code here: https://github.com/docker-hy'
 
 Commands givin:
 
