@@ -1,6 +1,6 @@
 Commands:
 
-~/devops_docker$ docker run -it --name ex_1-3 ubuntu
+~/devops_docker$ docker run -it --name ex_1-4 ubuntu
 
 root@066c1937244b:/# apt-get update
 root@066c1937244b:/# apt-get -y install curl
