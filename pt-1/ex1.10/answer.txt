@@ -1,0 +1,10 @@
+commands: 
+    sudo docker pull devopsdockeruh/simple-web-service
+    docker run -p 127.0.0.1:3456:8080 devopsdockeruh/simple-web-service server
+
+web-text:
+
+    {
+        "message": "You connected to the following path: /",
+        "path": "/"
+    }
