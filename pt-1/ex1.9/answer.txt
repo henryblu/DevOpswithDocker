@@ -1,2 +1,3 @@
 given command(from <root>/pt1/):
+    docker image pull devopsdockeruh/simple-web-service
     sudo docker run -v "$(pwd)/ex1.9/test.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service 
