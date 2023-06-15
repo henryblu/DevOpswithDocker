@@ -1,0 +1,2 @@
+command used: 
+    docker compose up --scale compute=4 -d
