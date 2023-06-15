@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
     frontend:
-        build: ./frontend
+        build: example-frontend/.
         container_name: frontend
         ports:
             - 5000:5000
 
     backend:
-        build: ./backend
+        build: example-backend/.
         container_name: backend
         ports:
             - 8080:8080
