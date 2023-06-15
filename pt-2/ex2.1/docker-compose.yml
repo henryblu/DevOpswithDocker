@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+    ex2.1:
+        image: devopsdockeruh/first_volume_exercise
+        volumes:
+            - ./logs.txt:/usr/app/logs.txt
+        container_name: ex2.1
