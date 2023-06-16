@@ -8,6 +8,7 @@ on:
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
 
@@ -24,4 +25,4 @@ jobs:
       with:
         push: true
         tags: henryblue/express-app:latest
-        file: pt-3/ex3.1/express-app/Dockerfile
+        file: ./pt-3/ex3.1/express-app
