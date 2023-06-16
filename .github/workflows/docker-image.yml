@@ -6,22 +6,27 @@ on:
     - main
 
 jobs:
+  deploy:
+    name: Deploy to GitHub Pages
+    # we are not interested in this job
+
   publish-docker-hub:
     name: Publish image to Docker Hub
     runs-on: ubuntu-latest
     steps:
+    # Checkout to the repository
+    - uses: actions/checkout@v2
 
-    - uses: actions/checkout@v3
-
+    # We need to login so we can later push the image without issues.
     - name: Login to Docker Hub
       uses: docker/login-action@v1
       with:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
-
-    - name: build and push
+    # Builds devopsdockeruh/docker-hy.github.io
+    - name: Build and push
       uses: docker/build-push-action@v2
       with:
         push: true
         tags: henryblue/express-app:latest
-        file: ./pt-3/ex3.1/express-app/Dockerfile
+        context: ./pt-3/ex3-1/express-app/Dockerfile
