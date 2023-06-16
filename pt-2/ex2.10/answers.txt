@@ -1,0 +1,4 @@
+Changes: 
+I got rid of the port exposing commands for the front end 
+and the back end. now the ports are not exposed and the 
+system still works because of the proxy. 
