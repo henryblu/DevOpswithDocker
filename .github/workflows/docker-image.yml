@@ -25,4 +25,4 @@ jobs:
       with:
         push: true
         tags: henryblue/express-app:latest
-        context: /pt-3/ex3.1/express-app/Dockerfile
+        context: ./pt-3/ex3.1/express-app/Dockerfile
