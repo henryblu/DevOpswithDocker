@@ -1,0 +1,6 @@
+Changes: 
+
+I had a lot of trouble with exercise 2.8, for some reason the proxy wasnt 
+operating as it should. After about 2 hours I ended up redoing the docker-compose 
+from scratch which fixed the problem. between exercise 2.8 and 2.9 I have not 
+changed anything.
