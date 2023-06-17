@@ -1,0 +1,5 @@
+Original sizes: 
+frontend: 280MB
+
+Optimised sizes: 
+frontend: 129MB
