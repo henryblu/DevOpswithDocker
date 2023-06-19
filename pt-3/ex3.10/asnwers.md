@@ -1,9 +1,9 @@
-for this exercise i reduced the size of the express-aap made in exercise 3.1
+for this exercise i reduced the size of the express-app made in exercise 3.1
 
-Original sizes: 
-    913MB
+## Original sizes: 
+### 913MB
 
-Original Dockerfile:
+## Original Dockerfile:
 
     FROM node:16
 
@@ -11,10 +11,10 @@ Original Dockerfile:
 
     RUN npm install
 
-Optimised sizes: 
-    122MB
+## Optimised sizes: 
+### 122MB
 
-Optimised Dockerfile: 
+## Optimised Dockerfile: 
 
     FROM node:16-alpine AS builder
 
