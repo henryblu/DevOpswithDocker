@@ -1,2 +1,2 @@
 # repository URL
-https://github.com/henryblu/devopsexercise3-1
+https://github.com/henryblu/devopsexercise
